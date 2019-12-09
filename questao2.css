@@ -1,0 +1,38 @@
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: green;
+font-size: 18px;
+}
+
+h1{
+text-align: center;
+background-color: yellow;    
+
+}
+
+
+.p1 {
+text-align: justify;    
+}
+
+.ul1{
+border:solid;
+width: 300px; 
+background: url(./img/Imagem.jpeg);
+
+}
+
+a:link{
+text-decoration: none;
+color:#ff0000;
+}
+
+a:visited{
+text-decoration: none;
+color:#ff0000;
+}
+
+a:hover{
+text-decoration: underline;
+color: blue;
+}

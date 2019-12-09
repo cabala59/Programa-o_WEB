@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+    	<meta charset="UTF-8">
+    	<title>Questão 02</title>
+    	<link rel="stylesheet" type="text/css" href="questao2.css" /> 
+		
+		 <style>
+		 .conteudo{
+		 width: 900px;
+		 height: 600px;
+		 margin: 0 auto;
+		 }
+		 </style>
+		 
+	
+		<script>
+		function mouseEmCima(imagem) {
+	
+		imagem.src="img/js2.png";
+		}
+		function mouseFora(imagem) {
+		imagem.src="img/js1.png";
+		}
+		</script>
+    	
+    	
+	</head>
+
+	<body>
+		<h1> Questão 02</h1>
+		
+	<div class="conteudo">
+	<img src="img/js1.png" onmouseover="mouseEmCima(this);" onmouseout="mouseFora(this)"/>
+	</div>
+
+         <div>
+       <p class="p1">As linguagens de programação web são utilizadas especificamente para o desenvolvimentos das camadas de apresentação e de lógica de negócio de web sites, portais e aplicações web em geral.</p>
+       <p>Para a camada de apresentação, é essencial que o WebDesigner conheça principalmente HTML, CSS e  ao menos o básico de JavaScript. Para as linguagens de programação de lógica, as opções disponíveis no mercado são muitas e com isso fica muito difícil dominar todas as linguagens, por isso é importante, pelo menos a principio, focar em alguma delas como PHP, ASP ou .NET, apesar de existir várias outras.</p>
+       <p>O mercado de tecnologia para programadores Web é sempre movimentado. O número de vagas é alto e sempre há muitas posições abertas em qualquer portal de empregos, grandes empresas e agências especializadas.
+		Porém a concorrência também é grande, as empresas procuram por candidatos realmente qualificados e por isso é essencial que o profissional se prepare muito para poder conseguir uma boa vaga.</p>
+      </div>
+
+       <div id="ListaOrdenada"><br>
+            <ul class="ul1">
+                <li>Processo de desenvolvimento web:
+                    <ul>
+                        <li>O que é um website e um web browser
+                            <ul>
+                                <li>Planejamento</li>
+                                <li>Protótipo</li>
+                                
+                            </ul>
+                        </li>
+                        <li>Identifique todas as páginas e sua organização</li>
+                        <li>Foque no conteo das páginas principais</li>
+                        <li>Foque em sua homepage</li>
+                        <li>Pense na interação com outras ferramentas</li>
+                    </ul>    
+                </li>
+                <li>Design</li>
+                <li>Desenvolvimento do código</li>
+                <li>Fase de testes</li> 
+                <li>Lançamento</li>   
+            </ul>
+        </div>
+
+      <div id="linkqualquer">
+            <a href="https://www.devmedia.com.br/programacao-web-por-onde-comecar/31953" target="_blank">Clique Aqui</a> para saber mais do assunto.
+       </div>
+
+
+	</body>
+</html>
